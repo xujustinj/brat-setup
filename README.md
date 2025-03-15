@@ -8,7 +8,7 @@ Without cloning, you can run the script using the one-liner
 wget "https://raw.githubusercontent.com/xujustinj/brat-setup/refs/heads/main/brat.sh" --output-document=- | bash
 ```
 
-This will download `brat.sh`, run it to install brat at `~/brat/brat-1.3p1`, initialize a default user account, and run the web server.
+This will download `brat.sh`, run it to install brat at `~/brat/brat-1.3p1`, initialize a default user account (username: `editor`, password: `annotate`), and run the local web server.
 Open [localhost:8001](https://127.0.0.1:8001) to access the server.
 The script is idempotent, so the copypasta can be used in place of learning how to run brat properly...
 
